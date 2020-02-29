@@ -5,7 +5,10 @@ import ToDo from './ToDo'
 
 function App() {
   return (
-    <div className="App">
+    <div className="todo-list">
+      <ToDo />
+      <ToDo />
+      <ToDo />
       <ToDo />
     </div>
   );
